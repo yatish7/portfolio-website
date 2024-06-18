@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Developer and  Machine Learning Engineer🚀 having an experience training ML Models and building Web  applications with JavaScript / Reactjs / Nodejs."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/19EKkT_wG_YRujuSPT5LVlUFh3-57E6ka/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -38,9 +38,7 @@ const socialMediaLinks = {
   gmail: "yatish.manne09@gmail.com",
   twitter: "https://twitter.com/Yatishmanne7",
   facebook: "https://www.facebook.com/yatish.manne",
-  medium: "https://hashnode.com/@YATISH",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  medium: "https://medium.com/@yatish.manne09",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -48,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Developer who is curious to learn and apply new technologies to solve real world problems.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -125,23 +123,27 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Chaitanya Bharathi Institute of Technology",
+      logo: require("./assets/images/CBITLogo.png"),
+      subHeader: "Bachelor of Engineering in Information Technology",
+      duration: "December 2021 (Current)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Organized a technical event and got one of the highest registrations in our department .",
+        "Participated in various Hackathons and coding competitions.",
+        "Volunteered in organizing various events and workshops."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Sri Chaitanya Junior College",
+      logo: require("./assets/images/sri_logo.jpeg"),
+      subHeader: "Intermediate Education",
+      duration: "April 2019 - October 2021",
+      descBullets: [
+        "Achieved a commendable rank of 3686 out of 40,000 candidates in the EAMCET-Telangana entrance examination.",
+        "Performed consistently very well in weekly tests and was in top 10 of my batch always.",
+        "Participated in various Olympiads.",
+        "Secured 97.6% in Intermediate final exams."
+      ]
     }
   ]
 };
@@ -152,16 +154,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Machine Learning", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Full Stack Development",
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -173,44 +175,47 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Machine Learning Intern",
+      company: "Codegnan",
+      companylogo: require("./assets/images/codegnan_logo.jpeg"),
+      date: "June 2023 – August 2023",
+      desc: "Worked on various projects like Customer Churn Prediction etc. using Machine Learning techniques.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Predicted telecom churn with ML model (Flask).",
+        "Engineered features & optimized models (LR, RF).",
+        "Identified churn factors & recommended solutions.",
+        "Deployed web app for user-friendly predictions.",
+        "Increased customer retention through actionable insights.",
       ]
     },
-    {
+    /*{
       role: "Front-End Developer",
       company: "Quora",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
+    },*/
+    /*{
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    }*/
   ]
 };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
+/*const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
-};
+};*/
 
 // Some big projects you have worked on
 
-const bigProjects = {
+/*const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
@@ -242,7 +247,7 @@ const bigProjects = {
 };
 
 // Achievement Section
-// Include certificates, talks etc
+// Include certificates, talks etc*/
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -304,7 +309,7 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
+/*const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
@@ -324,11 +329,11 @@ const blogSection = {
     }
   ],
   display: true // Set false to hide this section, defaults to true
-};
+};*/
 
 // Talks Sections
 
-const talkSection = {
+/*const talkSection = {
   title: "TALKS",
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
@@ -343,11 +348,11 @@ const talkSection = {
     }
   ],
   display: true // Set false to hide this section, defaults to true
-};
+};*/
 
 // Podcast Section
 
-const podcastSection = {
+/*const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
@@ -356,7 +361,7 @@ const podcastSection = {
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
   display: true // Set false to hide this section, defaults to true
-};
+};*/
 
 // Resume Section
 const resumeSection = {
@@ -393,12 +398,12 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
-  bigProjects,
+  /*openSource,
+  bigProjects*/
   achievementSection,
-  blogSection,
+  /*blogSection,
   talkSection,
-  podcastSection,
+  podcastSection*/
   contactInfo,
   twitterDetails,
   isHireable,

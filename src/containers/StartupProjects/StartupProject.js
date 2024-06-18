@@ -1,6 +1,6 @@
-import React, {useContext} from "react";
+/*import React, {useContext} from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
+/*import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -91,4 +91,4 @@ export default function StartupProject() {
       </div>
     </Fade>
   );
-}
+}*/

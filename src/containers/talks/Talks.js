@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+/*import React, {useContext} from "react";
 import "./Talks.scss";
 import TalkCard from "../../components/talkCard/TalkCard";
 import {talkSection} from "../../portfolio";
@@ -43,4 +43,4 @@ export default function Talks() {
       </div>
     </Fade>
   );
-}
+}*/
