@@ -220,25 +220,36 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Translator.jpeg"),
+      projectName: "Chat Translator",
+      projectDesc: "Developed an English-to-French translator using LSTMs and attention mechanisms. Preprocessed data for improved accuracy over baseline methods and evaluated performance with standard metrics, achieving significant enhancements in translation quality.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Github Repo",
+          url: "https://github.com/yatish7/Chat-Translator"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/cbit_logo_2.jpeg"),
+      projectName: "CBIT-MIS",
+      projectDesc: "Developed a Management Information System for my college using React JS,Node JS,MongoDB to manage the infrastructure of the college,users can view the details of infrastructure and can conduct classes and seminars by booking the class rooms and seminar halls.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Github Repo",
+          url: "https://github.com/yatish7/miscbit"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/telecom.jpeg"),
+      projectName: "CBIT-MIS",
+      projectDesc: "Created a Flask web app using scikit-learn to predict telecom customer churn. Users input attributes for predictions via a Random Forest Classifier, which provides confidence scores. Conducted EDA to extract insights from the dataset, enhancing prediction accuracy.",
+      footerLink: [
+        {
+          name: "Github Repo",
+          url: "https://github.com/yatish7/End-End-Telecommunication-Churn"
         }
       ]
     }
