@@ -49,11 +49,10 @@ const skillsSection = {
   subTitle: "Developer who is curious to learn and apply new technologies to solve real world problems.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+      "⚡ Train  Machine Learning and Deep Learning models for different use cases with high accuracy."),
+    emoji("⚡ Develop highly interactive Full-Stack web applications."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Familiar in working with various technologies like Git,GitHub,Linux,Bash."
     )
   ],
 
@@ -62,57 +61,58 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Machine Learning",
+      fontAwesomeClassname:"fas fa-brain" 
+    },
+    {
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
+      skillName: "My-SQL",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git "
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Bash",
+      fontAwesomeClassname: "fas fa-terminal  "
+    },
+    {
+      skillName: "Programming",
+      fontAwesomeClassname: "fas fa-code "
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -387,8 +387,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 6302809351",
+  email_address: "yatish.manne09@gmail.com"
 };
 
 // Twitter Section
