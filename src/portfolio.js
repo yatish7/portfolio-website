@@ -216,8 +216,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS I HAVE DEVELOPED AND WORKED ON.",
   projects: [
     {
       image: require("./assets/images/Translator.jpeg"),
@@ -244,7 +244,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/telecom.jpeg"),
-      projectName: "CBIT-MIS",
+      projectName: "Telecom Churn Prediction",
       projectDesc: "Created a Flask web app using scikit-learn to predict telecom customer churn. Users input attributes for predictions via a Random Forest Classifier, which provides confidence scores. Conducted EDA to extract insights from the dataset, enhancing prediction accuracy.",
       footerLink: [
         {
